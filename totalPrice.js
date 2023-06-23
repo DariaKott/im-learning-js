@@ -8,7 +8,7 @@ let calculateTotalPrice = (price = 100000, quantity = 2) => {
     // alert(`Стоимость покупки ${totalRu}`)
 }
 calculateTotalPrice();
-const button = document.getElementById('sumButton');
+
 const output = document.getElementById('output');
 
 function handleClick() {
@@ -17,4 +17,3 @@ function handleClick() {
     output.textContent = message;
 }
 
-button.addEventListener('click', handleClick);
